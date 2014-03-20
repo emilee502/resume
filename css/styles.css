@@ -85,7 +85,7 @@ div:nth-child(1) a:active {
 
 div:nth-child(2) {
   width: 100%;
-  height: 620px;
+  height: 560px;
   padding: 0;
   background: url("../img/paper1.jpg") fixed center no-repeat;
   background-size: cover;
@@ -95,7 +95,7 @@ div:nth-child(2) {
     -webkit-transition: all 2s;
 }
 
-div:nth-child(2) h1 {
+/*div:nth-child(2) h1 {
   padding-top: 50px;
   margin-top: 0;
   margin-bottom: 0;
@@ -107,11 +107,11 @@ div:nth-child(2) h1 {
     -o-transition: all 2s; 
     -moz-transition: all 2s; 
     -webkit-transition: all 2s;
-}
+}*/
 
 div:nth-child(2) p {
   width: 800px;
-  padding-top: 10px;
+  padding-top: 50px;
   margin-top: 0;
   margin-bottom: 0;
   margin-right: auto;
@@ -186,7 +186,7 @@ div:nth-child(3) p {
   margin-bottom: 22px;
   margin-right: auto;
   margin-left: auto;
-  text-align: left;
+  text-align: center;
   font-family: 'Merienda', cursive;
   font-size: 25px;
   color: black;
@@ -250,11 +250,20 @@ div:nth-child(6) {
     -webkit-transition: all 2s;
 }
 
-div:nth-child(7) {
+.grey {
   width: 100%;
-  height: 400px;
+  height: 30px;
+  background-color: grey; /* #F5FFF68 */
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(8) {
+  width: 100%;
   padding: 0;
-  background: url("../img/jump.jpg") fixed center no-repeat;
+  background: url("../img/toss.jpg") fixed center no-repeat;
   background-size: cover;
   transition: all 2s; 
     -o-transition: all 2s; 
@@ -262,10 +271,10 @@ div:nth-child(7) {
     -webkit-transition: all 2s;
 }
 
-div:nth-child(7) h1 {
+div:nth-child(8) h1 {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 70px 0px;
-  width: 100%;
+  padding: 70px 70px 70px 230px;
+  width: 600px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0;
@@ -274,6 +283,58 @@ div:nth-child(7) h1 {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 65px;
   color: white;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(8) p {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 230px;
+  padding-right: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-family: 'Merienda', cursive;
+  font-size: 25px;
+  color: white;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(10) {
+  width: 100%;
+  height: 400px;
+  bottom: 0px;
+  padding: 0;
+  background: url("../img/frame.jpg") fixed bottom no-repeat;
+  background-size: contain;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(10) a {
+  color: white;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  padding-left: 55px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 335px;
   transition: all 2s; 
     -o-transition: all 2s; 
     -moz-transition: all 2s; 
