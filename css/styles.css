@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(to bottom, #F5FFF6 0%, #C2BCB7 100%) no-repeat center center fixed;
+  height: 100%;
+  padding: auto 0;
+  margin: 0;
+  vertical-align: middle;
+  transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
+}
+
+div:nth-child(1) {
+  width: 100%;
+  height: 800px;
+  padding: 0;
+  background: url("../img/desk.JPG") fixed center no-repeat;
+  background-size: cover;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(1) h1 {
+  padding-top: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 100px;
+  color: white;transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(2) {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(1) ul {
+  text-align: center;
+  padding: 0;
+  margin: 30px auto;
+  width: 513px;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+div:nth-child(1) li {
+  display: inline;
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  color: white;
+  transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  font-size: 40px;
+  padding: 10px 25px;
+  text-decoration: none;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
