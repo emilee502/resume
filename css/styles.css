@@ -368,7 +368,7 @@ div:nth-child(10) a {
   }
 
   div:nth-child(3) {
-    background-color: rgba(194, 188, 183, 0.8);
+    background-color: rgba(194, 188, 183, 0.5);
     height: 1180px;
   }
 
